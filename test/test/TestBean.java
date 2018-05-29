@@ -1,11 +1,11 @@
 package test;
 
-import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
-public class TestBean {
+import junit.framework.TestCase;
+
+public class TestBean extends TestCase {
 	
 	private Bean bean;
 	
